@@ -283,7 +283,7 @@ main {
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 18px 0 0 55px;
     height: 197px;
@@ -293,7 +293,7 @@ main {
 .welcome a {
     border-radius: 40px;
     background-color: #98BE2A;
-    font-size: 13px;
+    font-size: 0.75vw;
     color: #000;
     display: flex;
     justify-content: center;
@@ -329,7 +329,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 1vw;
 }
 .social {
     border: 1px solid #dadada;
@@ -351,7 +351,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    gap: 1.2vw;
 }
 .info {
     border: 1px solid #dadada;
@@ -359,9 +359,30 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     margin: 18px 0 0 55px;
-    padding: 0 34px;
+    padding: 2% 34px 0 34px;
     height: 704px;
     width: 15vw;
+    font-size: 13px;
+    gap: 2%;
+}
+.info div {
+    display: flex;
+    flex-direction: column;
+}
+.info a {
+    margin-bottom: 2%;
+}
+.div-cards {
+    display: flex;
+    flex-direction: row !important;
+    margin: 0.75vw 0 1vw;
+    gap: 4vw;
+}
+.info a {
+    color: #000;
+    text-decoration: none;
+}
+.info a:hover {
+    background-color: #dadada;
 }
